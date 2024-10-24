@@ -1,0 +1,31 @@
+1) $pwd
+2)ls -a
+3)nano patterns.txt
+4)cat patterns.txt
+5)
+6)mv patterns .txt ~/math/calculus/
+7)rm triangle.txt
+8)cd ../math
+9)git init
+10)git remote add origin <link>
+11)cp symmetry ../math
+12)git status
+13)git add symmetry.txt
+14)yes
+15)git commit -m "added symmetry"
+16)git push origin main **no other branches
+17)git branch applied_math
+18)git checkout applied_math
+19)git add . git checkout -m "added branch applied_math" git push origin applied_math
+20)git branch **current
+21)git checkout main
+22)git merge applied_math
+23)		~/
+________________|_______________________
+|		|			|
+/music		/history		/math
+|					|main____________________________		applied_math____________________________________
+symmetry.txt				|		|		|		|		|		|		|	
+					/calculus	/geometry	symmetry.txt	/calculus	/geometry	symmetry.txt	/physics
+					|						|						|
+					pattern.txt					patterns.txt					mechanics.txt
